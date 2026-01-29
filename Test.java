@@ -80,7 +80,7 @@ public class Test {
         mul(x, y);
         div(x, y);
         rem(x,y);
-        System.out.println("Number of primes between " + L + " and " + R + " = " + countPrimesInRange(y, x));
+        System.out.println("Number of primes between " + x + " and " + y + " = " + countPrimesInRange(y, x));
     }
 }
 
