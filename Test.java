@@ -27,6 +27,13 @@ public class Test {
             System.out.println("Error: Division by zero is not allowed.");
         }
     }
+    static void rem(int a , int b){
+        if(b != 0){
+            System.out.println("Reminder is "+(a%b));
+        }else{
+            System.out.println("Error: Division by zero is not allowed.");
+        }
+    }
 
     // Main method
     public static void main(String[] args) {
@@ -37,6 +44,7 @@ public class Test {
         sub(x, y);
         mul(x, y);
         div(x, y);
+        rem(x,y);
     }
 }
 
